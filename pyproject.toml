@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "photo-selector"
+version = "0.1.0"
+description = "CLI tool to scan, list, and process photos using AI & OpenCV."
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+# Install with:  pip install -e '.[cv]'
+cv = [
+    "opencv-python>=4.9",
+    "numpy>=1.26",
+]
+
+[project.scripts]
+photo-selector = "photo_selector.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

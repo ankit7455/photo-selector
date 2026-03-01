@@ -1,0 +1,7 @@
+# Core dependencies
+click>=8.1
+rich>=13.0
+
+# Optional – uncomment when you need AI / OpenCV processing
+# opencv-python>=4.9
+# numpy>=1.26

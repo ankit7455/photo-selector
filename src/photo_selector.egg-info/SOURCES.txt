@@ -1,0 +1,11 @@
+pyproject.toml
+src/photo_selector/__init__.py
+src/photo_selector/cli.py
+src/photo_selector/scanner.py
+src/photo_selector.egg-info/PKG-INFO
+src/photo_selector.egg-info/SOURCES.txt
+src/photo_selector.egg-info/dependency_links.txt
+src/photo_selector.egg-info/entry_points.txt
+src/photo_selector.egg-info/requires.txt
+src/photo_selector.egg-info/top_level.txt
+src/photo_selector/processing/__init__.py
