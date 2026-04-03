@@ -1,6 +1,6 @@
 click>=8.1
 rich>=13.0
-
-[cv]
 opencv-python>=4.9
 numpy>=1.26
+Pillow>=10.0
+deepface>=0.0.79

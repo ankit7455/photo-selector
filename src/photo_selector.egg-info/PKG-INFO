@@ -5,6 +5,7 @@ Summary: CLI tool to scan, list, and process photos using AI & OpenCV.
 Requires-Python: >=3.10
 Requires-Dist: click>=8.1
 Requires-Dist: rich>=13.0
-Provides-Extra: cv
-Requires-Dist: opencv-python>=4.9; extra == "cv"
-Requires-Dist: numpy>=1.26; extra == "cv"
+Requires-Dist: opencv-python>=4.9
+Requires-Dist: numpy>=1.26
+Requires-Dist: Pillow>=10.0
+Requires-Dist: deepface>=0.0.79

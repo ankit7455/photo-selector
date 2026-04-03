@@ -2,6 +2,12 @@
 click>=8.1
 rich>=13.0
 
-# Optional – uncomment when you need AI / OpenCV processing
-# opencv-python>=4.9
-# numpy>=1.26
+# Image processing
+opencv-python>=4.9
+numpy>=1.26
+Pillow>=10.0
+
+# Face recognition (DeepFace ArcFace)
+# Note: DeepFace imports RetinaFace at module load time, which requires tf-keras
+deepface>=0.0.79
+tf-keras>=2.15.0

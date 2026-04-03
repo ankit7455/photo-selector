@@ -8,4 +8,12 @@ src/photo_selector.egg-info/dependency_links.txt
 src/photo_selector.egg-info/entry_points.txt
 src/photo_selector.egg-info/requires.txt
 src/photo_selector.egg-info/top_level.txt
+src/photo_selector/agents/__init__.py
+src/photo_selector/agents/clip_agent.py
+src/photo_selector/agents/graph.py
+src/photo_selector/agents/nature_scene_agent.py
+src/photo_selector/agents/person_match_agent.py
+src/photo_selector/agents/quality_agent.py
+src/photo_selector/agents/selector_agent.py
+src/photo_selector/agents/state.py
 src/photo_selector/processing/__init__.py
